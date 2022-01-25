@@ -1,0 +1,71 @@
+body {
+    background-color: #707079;
+
+background-image:  linear-gradient(135deg, #989abf 25%, transparent 25%), linear-gradient(225deg, #989abf 25%, transparent 25%), linear-gradient(45deg, #989abf 25%, transparent 25%), linear-gradient(315deg, #989abf 25%, #707079 25%);
+background-position:  10px 0, 10px 0, 0 0, 0 0;
+background-size: 20px 20px;
+background-repeat: repeat;
+font-family: 'Lora', serif;
+}
+.container {
+    
+  
+    background-color: white;
+    width: 40%;
+    margin: 10% auto;
+    text-align: center;
+    border-radius: 30px;
+    padding: 40px;
+  
+}
+
+@media screen and (min-width : 200px){
+    .btn{
+        margin: 10px 20px 0 20px;
+    }
+}
+.btn {
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 17px;
+  padding: 10px 10px;
+  
+  cursor: pointer;
+}
+#reset {
+  margin-right: 0 0;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+#counter {
+  margin: 30px 0 40px 0;
+  font-size: 5rem;
+}
+#increase,#decrease,#reset{
+    transition: 0.2s;
+}
+#increase:hover{
+    transition: 0.2s;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(53, 176, 53);
+}
+#decrease:hover{
+    transition: 0.2s;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(255, 2, 2);
+}
+#reset:hover{
+    transition: 0.2s;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
